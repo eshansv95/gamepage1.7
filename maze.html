@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Maze Generator</title>
+  <style>
+    #message {
+      position: absolute;
+      top: 10px;
+      left: 10px;
+      font-size: 24px;
+      font-weight: bold;
+      color: green;
+      display: none; /* Hide initially */
+    }
+  </style>
+</head>
+<body>
+  <canvas id="maze"></canvas>
+  <select id="level">
+    <option>Easy</option>
+    <option>Medium</option>
+    <option>Hard</option>
+  </select>
+  <div id="message">Congratulations! You reached the end!</div>
+  <script src="maze.js"></script>
+</body>
+</html>
